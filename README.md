@@ -1,25 +1,25 @@
-# 📦 Eatmefirst (โดย ทีมล้างตู้)
+#  Eatmefirst (โดย ทีมล้างตู้)
 
-## 🏆 ข้อมูลโปรเจกต์ (Project Overview)
+##  ข้อมูลโปรเจกต์ (Project Overview)
 * **ชื่อทีม:** ทีมล้างตู้
 * **Track:** Mixed
 * **Vision:** Reducing food waste, one kitchen at a time.
 
-## 🎯 Sprint Goal & Core Flow
+##  Sprint Goal & Core Flow
 * **Sprint Goal:** พัฒนาแอปพลิเคชัน/ระบบเวอร์ชัน MVP เพื่อให้ผู้ใช้สามารถแจ้งเตือนอาหารใกล้หมดอายุได้ภายในตู้เย็นได้
 * **Core Flow Statement:** ผู้ใช้ถ่ายรูปหรือกรอกชื่ออาหาร ➔ ระบบบันทึกและคำนวณวันหมดอายุ ➔ ระบบแจ้งเตือนเมื่ออาหารใกล้หมดอายุ
 
-## 👥 รายชื่อสมาชิกในทีมและบทบาท (Team Members & Roles)
+##  รายชื่อสมาชิกในทีมและบทบาท (Team Members & Roles)
 | รหัสนักศึกษา | ชื่อ-นามสกุล | GitHub Account | บทบาท (Role) | สิ่งที่จะส่งใน Repo (Evidence) |
 | :--- | :--- | :--- | :--- | :--- |
-| 67050339 | ธันยาดา ทุมสิทธิ์ | @[ใส่GitHubเพื่อน] | Hustler (บริหารโครงการ) | แผนงาน, สรุปผล Interview, Slide Presentation |
+| 67050339 | ธันยาดา ทุมสิทธิ์ | @67050339 | Hustler (บริหารโครงการ) | แผนงาน, สรุปผล Interview, Slide Presentation |
 | 67050546 | กิตติศักดิ์ นะนุนาค | @67050546 | Hacker (Embedded Systems) | ไฟล์ github-reflection-kittisak.md และโค้ดในส่วน firmware / hardware |
 | 67050570 | ภาวิช ส.กาญจนะชัย | @67050570-Phawich | Hacker (การเขียนโปรแกรม) | ซอร์สโค้ดระบบฝั่ง api / backend |
 | 67050582 | สุนิสา ดอนพูนไพร | @67050582sunisa | Hipster (การเขียนโปรแกรม & การตลาด) | โค้ดส่วนหน้าบ้าน frontend / สื่อและการออกแบบอินเตอร์เฟสในโฟลเดอร์ design |
 
 ---
 
-## 📂 โครงสร้างโฟลเดอร์ของโปรเจกต์ (Project Directory)
+##  โครงสร้างโฟลเดอร์ของโปรเจกต์ (Project Directory)
 ทีมเราได้วางโครงสร้างโฟลเดอร์ตาม Track การทำงานดังนี้:
 * `interview/` - สรุปผลและบทสัมภาษณ์ความต้องการของผู้ใช้งาน (User Interview)
 * `design/` - ไฟล์การออกแบบ UI, Wireframe หรือลิงก์ไป Figma
