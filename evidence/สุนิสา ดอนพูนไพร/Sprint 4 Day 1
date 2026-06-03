@@ -2,35 +2,36 @@
 
 ### 1. วันนี้ฉันเพิ่ม/แก้อะไรใน repo:
 
-* ทดสอบการทำงานของ Prototype v1 (Eatmefirst)
-* ตรวจสอบการเพิ่ม ลบ และแจ้งเตือนอาหารใกล้หมดอายุ
-* จัดเตรียมหลักฐานการทำงานของระบบสำหรับ Demo
-* อัปเดตเอกสารและหลักฐานใน GitHub Repository
-* สรุปผลการพัฒนา Prototype v1 เพื่อเตรียมส่ง CP5
+* จัดทำเอกสาร Sprint 4 Day 1 สำหรับการวางแผนทดสอบผู้ใช้ (User Test Plan)
+* กำหนด Test Objective และ Hypothesis ของโปรเจกต์ Eatmefirst
+* ออกแบบ User Task สำหรับการทดสอบ Prototype v1
+* จัดทำ Feedback Questions และ Observation Sheet
+* เตรียมแผนการเก็บหลักฐานและ Feedback จากผู้ใช้
 
 ### 2. ฉันใช้วิธีไหน:
 
-* VS Code
 * GitHub Web
-* Browser (Live Server)
+* Notion
+* VS Code
 
 ### 3. หลักฐานของฉันอยู่ที่ไหน:
 
-* GitHub Repository ของทีม Eatmefirst
-* Source Code HTML, CSS และ JavaScript
-* Screenshot การทำงานของ Prototype v1
-* เอกสาร Sprint 3 และหลักฐานการทดสอบระบบ
+* เอกสาร Sprint 4 Day 1 ใน GitHub Repository ของทีม Eatmefirst
+* User Test Plan
+* Feedback Questions
+* Observation Sheet
+* Prototype v1 ของระบบ Food Alert App
 
 ### 4. ฉันติดปัญหาอะไร และแก้อย่างไร:
 
-* พบข้อผิดพลาดเล็กน้อยในการแสดงผลข้อมูลและการทดสอบระบบ
-* ตรวจสอบโค้ดและทดลองใช้งานหลายรอบ
-* แก้ไขจนสามารถสาธิตการทำงานหลักของระบบได้ครบตามเป้าหมาย
+* ยังไม่แน่ใจว่าจะออกแบบคำถามและ User Task อย่างไรให้เหมาะกับการทดสอบ
+* ศึกษาแนวทาง User Testing และปรับคำถามให้สอดคล้องกับฟังก์ชันของระบบ
+* ปรึกษาสมาชิกในทีมและปรับปรุงแผนการทดสอบให้ชัดเจนขึ้น
 
 ### 5. งานของฉันเกี่ยวข้องกับ role/module อะไร:
 
-* Front-end Development
-* Prototype Development
-* Testing & Validation
 * Documentation
-* Demo Preparation
+* User Testing Planning
+* Feedback Management
+* Project Management
+
