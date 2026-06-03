@@ -1,0 +1,33 @@
+## GitHub Skill Reflection — สุนิสา ดอนพูนไพร
+
+### 1. วันนี้ฉันเพิ่ม/แก้อะไรใน repo:
+
+* สร้าง Prototype v1 ของโปรเจกต์ Eatmefirst
+* พัฒนาไฟล์ HTML, CSS และ JavaScript สำหรับระบบแจ้งเตือนอาหารใกล้หมดอายุ
+* เพิ่มฟังก์ชันเพิ่มรายการอาหาร แสดงรายการอาหาร และลบรายการอาหาร
+* ออกแบบหน้าเว็บเบื้องต้นสำหรับการใช้งาน
+
+### 2. ฉันใช้วิธีไหน:
+
+* VS Code
+* GitHub Web
+
+### 3. หลักฐานของฉันอยู่ที่ไหน:
+
+* Source Code ของโปรเจกต์ Eatmefirst ใน GitHub Repository
+* ไฟล์ HTML, CSS และ JavaScript ของระบบ
+* Screenshot การทำงานของ Prototype v1
+
+### 4. ฉันติดปัญหาอะไร และแก้อย่างไร:
+
+* มีปัญหาในการเชื่อมต่อไฟล์ HTML, CSS และ JavaScript ให้ทำงานร่วมกัน
+* เรียนรู้การตรวจสอบ Error และทดสอบผ่าน Browser ด้วย Live Server
+* ปรับแก้โค้ดจนสามารถเพิ่มและแสดงรายการอาหารได้ถูกต้อง
+
+### 5. งานของฉันเกี่ยวข้องกับ role/module อะไร:
+
+* Front-end Development
+* Documentation
+* Prototype Development
+* GitHub Management
+
