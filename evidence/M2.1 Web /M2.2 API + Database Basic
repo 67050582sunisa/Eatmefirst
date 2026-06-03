@@ -1,124 +1,26 @@
-let foods = []
+# M2.2 API + Database Basic
 
-function addFood(){
+## สิ่งที่ได้เรียนรู้
 
-    let foodName = document.getElementById("foodName").value
-    let expireDate = document.getElementById("expireDate").value
+* ความหมายของ API (Application Programming Interface)
+* การรับส่งข้อมูลระหว่าง Frontend และ Backend
+* การใช้งาน HTTP Request เช่น GET และ POST
+* การจัดเก็บข้อมูลใน Database
+* ความสัมพันธ์ระหว่าง Web Application, API และ Database
 
-    if(foodName === "" || expireDate === ""){
-        alert("กรอกข้อมูลให้ครบ")
-        return
-    }
+## ตัวอย่างการนำไปใช้ในโปรเจกต์ Eatmefirst
 
-    foods.push({
-        name: foodName,
-        expire: expireDate
-    })
+* ผู้ใช้เพิ่มข้อมูลอาหารผ่านหน้าเว็บ
+* ระบบส่งข้อมูลไปยัง API
+* API บันทึกข้อมูลลง Database
+* ระบบดึงข้อมูลอาหารกลับมาแสดงผลบนหน้าเว็บ
 
-    showFoods()
+## Reflection
 
-    document.getElementById("foodName").value = ""
-    document.getElementById("expireDate").value = ""
-}
+จากการศึกษา Module M2.2 ทำให้เข้าใจการทำงานร่วมกันของ Frontend, API และ Database มากขึ้น และสามารถนำความรู้ไปประยุกต์ใช้กับโปรเจกต์ Eatmefirst ในอนาคตได้
 
-function showFoods(){
+## Evidence
 
-    let list = document.getElementById("foodList")
+* ศึกษาเนื้อหา Module M2.2 API + Database Basic
+* บันทึกสรุปการเรียนรู้ลง GitHub Repository
 
-    list.innerHTML = ""
-
-    for(let i = 0; i < foods.length; i++){
-
-        let today = new Date()
-let expire = new Date(foods[i].expire)
-
-let diffTime = expire - today
-let diffDay = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
-
-let warning = ""
-
-if(diffDay <= 3){
-    warning = "⚠️ ใกล้หมดอายุ"
-}
-
-list.innerHTML += `
-    <li>
-        ${foods[i].name} - ${foods[i].expire}
-        <br>
-        ${warning}
-        <br>
-        <button onclick="deleteFood(${i})">ลบ</button>
-    </li>
-`
-        
-    }
-}
-function deleteFood(index){
-
-    foods.splice(index,1)
-
-    showFoods()
-}
-<!DOCTYPE html>
-<html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <title>Food Alert</title>
-
-  <link rel="stylesheet" href="style.css">
-</head>
-<h1>🍱 Food Alert App</h1>
-
-<div class="container">
-
-  <input type="text" id="foodName" placeholder="ชื่ออาหาร">
-
-  <input type="date" id="expireDate">
-
-  <button onclick="addFood()">Add Food</button>
-
-  <ul id="foodList"></ul>
-
-</div>
-
-<script src="script.js"></script>
-</html>
-body{
-    font-family: Arial;
-    background: #f5f5f5;
-    padding: 30px;
-}
-
-.container{
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-}
-
-input{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-button{
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
-    background: green;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-li{
-    background: #eee;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 5px;
-}
-.warning{
-    color: red;
-    font-weight: bold;
-}
