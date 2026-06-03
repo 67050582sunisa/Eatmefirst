@@ -1,0 +1,36 @@
+## GitHub Skill Reflection — สุนิสา ดอนพูนไพร
+
+### 1. วันนี้ฉันเพิ่ม/แก้อะไรใน repo:
+
+* ทดสอบการทำงานของ Prototype v1 (Eatmefirst)
+* ตรวจสอบการเพิ่ม ลบ และแจ้งเตือนอาหารใกล้หมดอายุ
+* จัดเตรียมหลักฐานการทำงานของระบบสำหรับ Demo
+* อัปเดตเอกสารและหลักฐานใน GitHub Repository
+* สรุปผลการพัฒนา Prototype v1 เพื่อเตรียมส่ง CP5
+
+### 2. ฉันใช้วิธีไหน:
+
+* VS Code
+* GitHub Web
+* Browser (Live Server)
+
+### 3. หลักฐานของฉันอยู่ที่ไหน:
+
+* GitHub Repository ของทีม Eatmefirst
+* Source Code HTML, CSS และ JavaScript
+* Screenshot การทำงานของ Prototype v1
+* เอกสาร Sprint 3 และหลักฐานการทดสอบระบบ
+
+### 4. ฉันติดปัญหาอะไร และแก้อย่างไร:
+
+* พบข้อผิดพลาดเล็กน้อยในการแสดงผลข้อมูลและการทดสอบระบบ
+* ตรวจสอบโค้ดและทดลองใช้งานหลายรอบ
+* แก้ไขจนสามารถสาธิตการทำงานหลักของระบบได้ครบตามเป้าหมาย
+
+### 5. งานของฉันเกี่ยวข้องกับ role/module อะไร:
+
+* Front-end Development
+* Prototype Development
+* Testing & Validation
+* Documentation
+* Demo Preparation
